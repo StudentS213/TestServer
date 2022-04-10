@@ -12,6 +12,7 @@ namespace TestServer
         public SchoolDataContext(DbContextOptions<SchoolDataContext> options)
             : base(options)
         {
+
             Database.EnsureCreated();
         }
     }
